@@ -38,10 +38,4 @@ function playRound(playerChoice, computerSelection) {
     }
 }
 
-function game() {
-    for (let i = 0; i < 5; i++) {
-        alert(playRound(playerChoice, computerSelection));
-    }
-}
-
-game();
+console.log(playRound(playerChoice, computerSelection));
