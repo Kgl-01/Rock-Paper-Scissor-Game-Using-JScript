@@ -10,7 +10,7 @@ function computerChoice() {
 
 
 //create a var for taking user choice
-let playerChoice = 'rock';
+let playerChoice = prompt("Enter you choice",'');
 
 //assigning the computerChoice for a variable.
 let computerSelection = computerChoice();
